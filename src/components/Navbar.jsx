@@ -603,13 +603,15 @@ const [showUV, setShowUV] = useState(false);
         <iframe
           width="100%"
           height="100%"
-          src="https://embed.windy.com/embed2.html?lat=12.8&lon=80.2&detailLat=12.8&detailLon=80.2&width=100%&height=100%&zoom=5&level=surface&overlay=wind&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"
+          src="https://embed.windy.com/embed2.html?lat=12.8&lon=80.2&detailLat=12.8&detailLon=80.2&zoom=5&level=surface&overlay=wind&menu=&message=true&marker=&calendar=0&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"
           frameBorder="0"
           style={{
             borderRadius: "16px",
             filter: "contrast(95%) saturate(110%) brightness(90%)",
           }}
         ></iframe>
+
+
 
         <div className="text-center">
           <MapPin size={48} className="mx-auto mb-4 opacity-60" />
